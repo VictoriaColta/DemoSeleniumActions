@@ -1,6 +1,4 @@
-package testsPractice;
-
-import model.Application;
+package SeleniumActions;
 
 public class FindAndGet {
 

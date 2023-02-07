@@ -1,12 +1,8 @@
-package testsPractice;
+package SeleniumActions;
 
 import model.Application;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Test;
 
-import java.security.Key;
+import org.testng.annotations.Test;
 
 public class FindAndClick {
 

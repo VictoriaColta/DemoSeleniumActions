@@ -1,4 +1,4 @@
-package testsPractice;
+package SeleniumActions;
 
 import org.testng.annotations.Test;
 
