@@ -9,24 +9,21 @@ import org.testng.annotations.Test;
 public class FindAndSend {
     @Test
     public void findAndSendKeys() {
-        Application.start();
 
         //Go to Form Authentication
-        Application.driver().findElement(By.xpath("//a[@href='/login']")).click();
-
-        //Gaseste campul username si insereaza username
-        WebElement username = Application.driver().findElement(By.id("username"));
-        username.sendKeys("tomsmith");
 
 
-        //Challenge:Gaseste campul password si insereaza SuperSecretPassword!
+        //Gaseste campul username si insereaza username numele tau
+
+        //Gaseste campul username si sterge ce ai scris in pasul anterior(metoda clear()) si insereaza username tomsmith
+
+
+
+        //Gaseste campul password si insereaza SuperSecretPassword!
 
 
         //Fa click pe butonul Login
 
-
-
-        Application.close();
 
     }
 }

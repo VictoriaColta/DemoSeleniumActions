@@ -9,7 +9,7 @@ public class Cerinta1 {
 //    Step 2: Click pe butonul Add Element
 //    Step 3: Sa se verifice display la butonul Delete
 //    Step 4: Click pe button Delete
-//    Step 5: Sa se verifice ca butonul Delete nu mai apare
+//    Step 5: Sa se verifice ca butonul Delete nu mai apare -> Foloseste assert
  @Test
     public void testCerinta1(){
 
