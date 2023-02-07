@@ -9,7 +9,7 @@ public class DragAndDrop {
 
     @Test
     public void dragAndDrop(){
- branchTest
+
         Actions actions = new Actions(driver());
 
         //Indentificam elementele cu care vom interactiona
