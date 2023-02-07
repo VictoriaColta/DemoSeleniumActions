@@ -8,8 +8,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Application {
-
-    private static final String link = "https://the-internet.herokuapp.com/";
+//TO DO
+    private static final String link = "The link to the site";
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static WebDriver driver() {
@@ -18,25 +18,22 @@ public class Application {
 
 
     public static void start() {
-        //Set the path to driver
-        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+        //TO DO: Set the path to driver - fill where is necessary
+        System.setProperty("webdriver.chrome.driver", "The location folder of driver.exe");
+
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
-
         driver.set(new ChromeDriver(options));
 
-        //Set the URL
-        driver().get(link);
+        //TO DO: Set the URL
+        driver().get("");
 
 
     }
 
     public static void close() {
-        driver.get().quit();
+        //Write your code here to close the driver
+
     }
 
-    public static void clearInput(WebElement input) {
-        JavascriptExecutor js = (JavascriptExecutor) driver();
-        js.executeScript("arguments[0].value= '';", input);
-    }
-}
+  }

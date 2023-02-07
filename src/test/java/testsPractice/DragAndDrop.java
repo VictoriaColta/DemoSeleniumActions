@@ -1,12 +1,23 @@
 package testsPractice;
 
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import static model.Application.driver;
+
 public class DragAndDrop {
-   //Initializam clasa Actions
+
+    @Test
+    public void dragAndDrop(){
+ branchTest
         Actions actions = new Actions(driver());
 
         //Indentificam elementele cu care vom interactiona
 
         //apelam metoda dragAndDrop
 
+
+
+    }
 
 }
