@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 import static model.Application.driver;
 
 public class DragAndDrop {
+
     @Test
     public void dragAndDrop(){
-
-        //Initializam clasa Actions
+ branchTest
         Actions actions = new Actions(driver());
 
         //Indentificam elementele cu care vom interactiona
@@ -19,4 +19,5 @@ public class DragAndDrop {
 
 
     }
+
 }
